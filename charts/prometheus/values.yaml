@@ -1,0 +1,6 @@
+prometheus:
+  alertmanager:
+    enabled: true
+  server:
+    persistentVolume:
+      size: 8Gi

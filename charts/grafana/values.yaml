@@ -1,0 +1,9 @@
+grafana:
+  adminUser: admin
+  adminPassword: admin
+  persistence:
+    enabled: true
+    size: 5Gi
+  dashboards:
+    Loki:
+      file: /etc/grafana/provisioning/dashboards/loki-dashboard.json
