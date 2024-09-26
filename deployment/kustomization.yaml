@@ -1,0 +1,3 @@
+resources:
+  - loki-stack/values.yaml
+  - nginx-app/templates/nginx-deployment.yaml
